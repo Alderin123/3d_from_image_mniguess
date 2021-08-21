@@ -6,7 +6,7 @@ namespace Scuffed_Photogrammetry_Algorithm
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Simon");
         }
     }
 }
