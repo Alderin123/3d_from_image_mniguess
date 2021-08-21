@@ -1,5 +1,4 @@
 ﻿using System;
-using Scuffed_Photogrammetry_Algorithm.Models;
 
 namespace Scuffed_Photogrammetry_Algorithm
 {
@@ -8,9 +7,6 @@ namespace Scuffed_Photogrammetry_Algorithm
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Simon");
-
-            var image = new Image();
-
         }
     }
 }
