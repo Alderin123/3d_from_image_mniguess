@@ -213,6 +213,11 @@ nuget.config
 csx/
 *.build.csdef
 
+# random shit
+slnx.sqlite
+slnx.sqlite-journal
+.suo
+
 # Microsoft Azure Emulator
 ecf/
 rcf/
