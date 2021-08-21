@@ -4,7 +4,13 @@ using System.Text;
 
 namespace Scuffed_Photogrammetry_Algorithm.Models
 {
-    class Image
+    public class Image
     {
+
+
+        public bool HasCoordinates => MetaData != null;
+
+        public ImageMetaData MetaData { get; set; }
     }
+
 }
