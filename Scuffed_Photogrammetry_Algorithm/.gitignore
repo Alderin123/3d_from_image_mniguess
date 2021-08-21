@@ -217,6 +217,7 @@ csx/
 slnx.sqlite
 slnx.sqlite-journal
 .suo
+*/.vs
 
 # Microsoft Azure Emulator
 ecf/
