@@ -6,14 +6,14 @@ using Scuffed_Photogrammetry_Algorithm.Models;
 
 namespace Scuffed_Photogrammetry_Algorithm.HelpMethods
 {
-    public static class RawDataHandler
+    public static class InputDataHandler
     {
 
         public static ImageMetaData ReadMetaDataFromFile(string filePath)
         {
             var imageMetaData = new ImageMetaData();
             var rawImageMetaData = ImageMetadataReader.ReadMetadata(filePath);
-
+            var a = 1;
             return imageMetaData;
         }
 
