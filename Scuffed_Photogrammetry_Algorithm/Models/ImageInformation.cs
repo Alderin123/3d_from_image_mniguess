@@ -9,10 +9,10 @@ namespace Scuffed_Photogrammetry_Algorithm.Models
     public class ImageInformation
     {
 
-        public ImageInformation(RawImageData rawImageData)
-        {
+        //public ImageInformation(RawImageData rawImageData)
+        //{
 
-        }
+        //}
 
 
 
