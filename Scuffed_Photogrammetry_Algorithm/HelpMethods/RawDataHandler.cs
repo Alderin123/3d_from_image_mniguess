@@ -6,29 +6,29 @@ using Scuffed_Photogrammetry_Algorithm.Models;
 
 namespace Scuffed_Photogrammetry_Algorithm.HelpMethods
 {
-    public static class RawImageHandler
+    public static class RawDataHandler
     {
 
-        public static ImageMetaData ReadMetaDataFromFile(string file)
+        public static ImageMetaData ReadMetaDataFromFile(string filePath)
         {
             var imageMetaData = new ImageMetaData();
-            var rawImageMetaData = ImageMetadataReader.ReadMetadata(file);
-
-
+            var rawImageMetaData = ImageMetadataReader.ReadMetadata(filePath);
 
             return imageMetaData;
         }
 
-        public static Image ReadImageFromFile(string file)
+        public static Image ReadImageDataFromFile(string file)
         {
             Image image = Image.FromFile(file);
+
             return image;
         }
 
         public static string[] GetDataFiles(string DataFolderPath)
         {
-            string[] files = System.IO.Directory.GetFiles(DataFolderPath);
-            return files;
+            string[] filePaths = System.IO.Directory.GetFiles(DataFolderPath);
+
+            return filePaths;
         }
     }
 }

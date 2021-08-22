@@ -9,15 +9,12 @@ namespace Scuffed_Photogrammetry_Algorithm.Models
     public class ImageInformation
     {
 
-        //public ImageInformation(RawImageData rawImageData)
-        //{
+        public ImageInformation(ImageMetaData imageMetaData, Image image)
+        {
+            MetaData = imageMetaData;
+            Image = image;
+        }
 
-        //}
-
-
-
-
-        public bool HasCoordinates => MetaData != null;
         public ImageMetaData MetaData { get; set; }
         public Image Image { get; set; }
     }
